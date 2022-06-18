@@ -81,7 +81,7 @@ package](https://aur.archlinux.org/packages/nvim-packer-git/).
 > Windows Powershell Installation
 
 ```shell
-git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+git clone https://github.com/ox821110/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 ```
 
 Then you can write your plugin specification in Lua, e.g. (in `~/.config/nvim/lua/plugins.lua`):
