@@ -71,7 +71,7 @@ To get started, first clone this repository to somewhere on your `packpath`, e.g
 > Unix, Linux Installation
 
 ```shell
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+git clone --depth 1 https://github.com/ox821110/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
@@ -94,7 +94,7 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function()
   -- Packer can manage itself
-  use 'wbthomason/packer.nvim'
+  use 'ox821110/packer.nvim'
 
   -- Simple plugins can be specified as strings
   use '9mm/vim-closer'
